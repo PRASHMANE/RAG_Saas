@@ -16,7 +16,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        settings.FRONTEND_URL,
+        "https://rag-saas-flame.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
